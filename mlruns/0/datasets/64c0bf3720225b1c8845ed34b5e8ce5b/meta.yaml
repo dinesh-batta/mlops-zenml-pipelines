@@ -1,0 +1,24 @@
+digest: 10db90bc
+name: dataset
+profile: '{"num_rows": 70, "num_elements": 1680}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "ID", "required": true}, {"type":
+  "double", "name": "Client_Income", "required": true}, {"type": "double", "name":
+  "Car_Owned", "required": true}, {"type": "double", "name": "Child_Count", "required":
+  true}, {"type": "double", "name": "Credit_Amount", "required": true}, {"type": "double",
+  "name": "Loan_Annuity", "required": true}, {"type": "double", "name": "Population_Region_Relative",
+  "required": true}, {"type": "double", "name": "Age_Days", "required": true}, {"type":
+  "double", "name": "Employed_Days", "required": true}, {"type": "double", "name":
+  "Registration_Days", "required": true}, {"type": "double", "name": "ID_Days", "required":
+  true}, {"type": "double", "name": "Own_House_Age", "required": true}, {"type": "long",
+  "name": "Mobile_Tag", "required": true}, {"type": "long", "name": "Homephone_Tag",
+  "required": true}, {"type": "long", "name": "Workphone_Working", "required": true},
+  {"type": "double", "name": "Client_Family_Members", "required": true}, {"type":
+  "double", "name": "Cleint_City_Rating", "required": true}, {"type": "double", "name":
+  "Application_Process_Day", "required": true}, {"type": "double", "name": "Application_Process_Hour",
+  "required": true}, {"type": "double", "name": "Score_Source_2", "required": true},
+  {"type": "double", "name": "Score_Source_3", "required": true}, {"type": "double",
+  "name": "Social_Circle_Default", "required": true}, {"type": "double", "name": "Phone_Change",
+  "required": true}, {"type": "double", "name": "Credit_Bureau", "required": true}]}'
+source: '{"tags": {"mlflow.user": "home", "mlflow.source.name": "/home/home/PycharmProjects/pocs/mlops_test/run_training_pipeline.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

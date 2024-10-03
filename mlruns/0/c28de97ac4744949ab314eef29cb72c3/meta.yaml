@@ -1,0 +1,15 @@
+artifact_uri: file:///home/home/PycharmProjects/pocs/mlops_test/mlruns/0/c28de97ac4744949ab314eef29cb72c3/artifacts
+end_time: 1724866375641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c28de97ac4744949ab314eef29cb72c3
+run_name: amazing-asp-50
+run_uuid: c28de97ac4744949ab314eef29cb72c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724866373369
+status: 3
+tags: []
+user_id: home

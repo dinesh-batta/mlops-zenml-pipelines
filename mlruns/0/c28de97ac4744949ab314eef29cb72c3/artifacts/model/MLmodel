@@ -1,0 +1,41 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.2
+model_size_bytes: 1409
+model_uuid: 67cecad02b0045ab8cdfdae2a73dea7d
+run_id: c28de97ac4744949ab314eef29cb72c3
+signature:
+  inputs: '[{"type": "long", "name": "ID", "required": true}, {"type": "double", "name":
+    "Client_Income", "required": true}, {"type": "double", "name": "Car_Owned", "required":
+    true}, {"type": "double", "name": "Child_Count", "required": true}, {"type": "double",
+    "name": "Credit_Amount", "required": true}, {"type": "double", "name": "Loan_Annuity",
+    "required": true}, {"type": "double", "name": "Population_Region_Relative", "required":
+    true}, {"type": "double", "name": "Age_Days", "required": true}, {"type": "double",
+    "name": "Employed_Days", "required": true}, {"type": "double", "name": "Registration_Days",
+    "required": true}, {"type": "double", "name": "ID_Days", "required": true}, {"type":
+    "double", "name": "Own_House_Age", "required": true}, {"type": "long", "name":
+    "Mobile_Tag", "required": true}, {"type": "long", "name": "Homephone_Tag", "required":
+    true}, {"type": "long", "name": "Workphone_Working", "required": true}, {"type":
+    "double", "name": "Client_Family_Members", "required": true}, {"type": "double",
+    "name": "Cleint_City_Rating", "required": true}, {"type": "double", "name": "Application_Process_Day",
+    "required": true}, {"type": "double", "name": "Application_Process_Hour", "required":
+    true}, {"type": "double", "name": "Score_Source_2", "required": true}, {"type":
+    "double", "name": "Score_Source_3", "required": true}, {"type": "double", "name":
+    "Social_Circle_Default", "required": true}, {"type": "double", "name": "Phone_Change",
+    "required": true}, {"type": "double", "name": "Credit_Bureau", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-08-28 17:32:53.959463'
